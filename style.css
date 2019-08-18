@@ -1,0 +1,115 @@
+* {
+  /* outline: dotted 2px red; */
+}
+
+main{
+  margin:0px auto 0px auto;
+  width: 960px;
+  box-sizing: border-box;
+}
+
+header{
+  background: #555;
+  height: 130px;
+}
+header div{
+  width: 960px;
+  margin: 0px auto 0px auto;
+}
+
+nav{
+  height: 70px;
+  vertical-align: top;
+}
+header img, nav{
+  display: inline-block;
+  margin: 30px 0 0 0;
+}
+
+ul {
+  margin: 27px 0px 0px 0px;
+}
+
+li{
+  display: inline-block;
+  margin-right: 40px;
+  margin-left: 40px;
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+section{
+  margin-top: 30px;
+  font-size: 0px; /*gets rid of additional space between block elements*?*/
+}
+
+#section_one img {
+  margin: 0px auto 0px auto;
+  /* /border:dotted 2px rgb(35, 218, 218); */
+   /* pozbywa się  */
+
+}
+
+.class_two{
+  margin-right: 30px;
+}
+
+#section_two img{
+  display: inline-block
+}
+
+article img, article div{
+  display: inline-block;
+}
+
+article img{
+  margin-right: 30px;
+}
+
+article{
+font-size: 0px;
+ margin-bottom: 30px;
+}
+article div{
+  width: 450px;
+  height: 400px;
+  vertical-align: top; /*to align it with a picture; it seems like a pucture is treated as text and div was placed in the middle*/
+}
+
+h4{
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-size: 15px;
+  margin-bottom: 30px;
+  overflow: auto;
+  height: 293px; 
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3em;
+  font-style: italic;
+}
+
+button{
+  background: #555;
+  color:white;
+  border:none;
+  width: 150px;
+  height: 45px;
+  font-size: 16px;
+}
+
+button:hover{
+  background: rgb(209, 207, 207);
+  color: black;
+  transition: 350ms all;
+}
+
+footer{
+  height: 160px;
+  background: #555;
+}
+
