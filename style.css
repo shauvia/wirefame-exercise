@@ -44,18 +44,12 @@ section{
   font-size: 0px; /*gets rid of additional space between block elements*?*/
 }
 
-#section_one img {
-  margin: 0px auto 0px auto;
-  /* /border:dotted 2px rgb(35, 218, 218); */
-   /* pozbywa się  */
-
-}
-
-.class_two{
+section img:nth-child(2) {
   margin-right: 30px;
+  margin-left: 30px;
 }
 
-#section_two img{
+section img{
   display: inline-block
 }
 
